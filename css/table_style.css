@@ -1,0 +1,83 @@
+
+body {
+    background-color: #010101;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+.table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: #ECE9E0;
+    color: #656665;
+    border: 16px solid #ECE9E0;
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    opacity: 0.95;
+    }
+    th {
+    font-size: 18px;
+    padding: 10px;
+    }
+    td {
+    background: #F5D7BF;
+    padding: 10px;
+    }
+    .pressed-button {
+        text-decoration: none;
+        display: inline-block;
+        padding: 12px 40px;
+        margin: 10px 20px;
+        border-radius: 30px;
+        background-image: linear-gradient(45deg, #F5D7BF 0%, #F5D7BF 50%, #c77a33 100%);
+        background-position: 100% 0;
+        background-size: 200% 200%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-weight: 300;
+        color: #3e3f3e;
+        box-shadow: 0 16px 32px 0 rgba(0, 40, 120, .35);
+        transition: .5s;
+        opacity: 0.95;
+    }
+    .pressed-button:hover {
+        box-shadow: 0 0 0 0 rgba(0, 40, 120, 0);
+        background-position: 0 0;
+    }
+    .music-button {
+        text-decoration: none;
+        display: inline-block;
+        padding: 1px 1px;
+        margin: 1px 1px;
+        border-radius: 30px;
+        background-image: #F5D7BF;
+        background-position: 100% 0;
+        background-size: 200% 200%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        font-weight: 300;
+        color: #4e4e4e;
+        transition: .5s;
+    }
+    .round {
+        border-radius: 100px;
+        border: 3px solid green;
+        box-shadow: 0 0 7px #666;
+    }
+.main-articless {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    top: -1px;
+    z-index: 10;
+}
